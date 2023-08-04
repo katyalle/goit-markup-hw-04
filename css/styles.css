@@ -75,6 +75,9 @@ img {
 /* __________________________________________HEADER____________________ */
 .header{
     border-bottom: 1px solid var(--border-color);
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .header-div{
 display: flex;
@@ -331,10 +334,10 @@ text-align: center;
             gap: 24px;
         }
        .social-li{
-       transition:  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+       transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
             width: 40px;
             height: 40px;
-            transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+          
         }
        .social-list-icon{
             width: 100%;
@@ -426,6 +429,10 @@ text-align: center;
     Height: 312px;
     background-color: var(--background-color);
     padding: 100px 0
+}
+.all-footer{
+    display: flex;
+    align-items: center;
 }
  .div-link {
      margin-right: 120px;
@@ -534,7 +541,12 @@ text-align: center;
   .portfolio-btn:focus {
       border: 1px solid transparent;
   }
-
+.btn-p{
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
   .portfolio-btn {
       font-family: 'Roboto', sans-serif;
       font-style: normal;
@@ -716,7 +728,7 @@ text-align: center;
       justify-content: center;
       padding: 0;
       cursor: pointer;
-      transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      transition: 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   }
 
@@ -731,7 +743,7 @@ text-align: center;
   }
 
   .close-modal {
-  
+transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
       top: 50%;
       transform: translateY(-50%);
 
