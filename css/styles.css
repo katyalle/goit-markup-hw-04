@@ -432,7 +432,7 @@ text-align: center;
 }
 .all-footer{
     display: flex;
-    align-items: center;
+    align-items: baseline;
 }
  .div-link {
      margin-right: 120px;
